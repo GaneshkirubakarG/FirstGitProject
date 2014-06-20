@@ -21,4 +21,9 @@ public class MainActivity extends Activity {
 	public void onBackPressed() {
 		super.onBackPressed();
 	}
+	
+	@Override
+	protected void onPause() {
+		super.onPause();
+	}
 }
